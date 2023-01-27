@@ -67,6 +67,7 @@
     "    def __init__(self,judul,penulis):\n",
     "        self.judul=judul\n",
     "        self.penulis=penulis\n",
+    "        self.harga=50_000\n",
     "        \n",
     "    def view(self):\n",
     "        return f'Judul Buku: {self.judul} the Hardway, Penulis: {self.penulis}'\n",
